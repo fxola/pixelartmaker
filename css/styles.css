@@ -1,0 +1,100 @@
+
+section{
+    background: url("../images/pex.jpeg"); 
+    text-align: center;    
+       
+}
+h1 {
+    text-align: center;    
+    font-family: Monoton;
+    font-size: 60px;
+    margin: 0.2em;
+}
+
+h2,label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin: 1em 0 0.25em;
+    text-align: left; 
+    margin-left : 2em;        
+}
+
+.tag{
+display: block;
+margin:2em;
+text-align: center;    
+
+}
+
+.colour{
+    text-align: left;
+    margin-left : 2.5em;            
+}
+.colour > h2{
+    margin-left : 0.1em;  
+    margin-top: 0.5em;                 
+}
+form{
+    display: table-caption;
+}
+
+h2.design{
+    text-align: center;     
+}
+
+#colorPicker{
+    margin-bottom: 10em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
+input[type=number]{
+    width: 10em;
+    padding: 1em 2em;
+    background: transparent;
+    border: 4px solid black ;
+    border-radius: 4px;    
+    background: rgb(174, 178, 181);
+    
+}
+
+input[type=color]{
+    text-align: left;     
+}
+
+button{
+    font-size: 0.9em;
+    padding: 1em 2em;
+    background: yellow;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+button:hover{
+    border: 3px solid black;  
+    background: green;
+    transition: 0.5s ease-in;
+      
+}
